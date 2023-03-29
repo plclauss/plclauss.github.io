@@ -9,9 +9,8 @@ html, body {
 }
 
 body {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	display: grid;
+	place-items: center;
 }
 
 .flex-container {
