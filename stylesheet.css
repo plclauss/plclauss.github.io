@@ -3,12 +3,16 @@
 	margin: 0;
 }
 
-html, body {
+html {
+	display: grid;
+	place-items: center;
 	width: 100%;
 	height: 100%;
 }
 
 body {
+	width: 80%;
+	height: 90%;
 	background-color: #aabaf7;
 	display: grid;
 	place-items: center;
@@ -40,7 +44,7 @@ body {
 .bio-text {
 	width: 80%;
 	font-size: 1rem;
-	line-height: 1.25;
+	line-height: 1.5;
 }
 
 #self-portrait {
@@ -55,16 +59,17 @@ body {
 
 a {
 	text-decoration: none;
-	background-color: #8a9eeb;
+	background-color: hsl(228, 71%, 73%, 0.5);
 	padding: 2rem;
 	border-radius: 100vw;
-	color: #ccdafb;
+	color: #5d6a9e;
 }
 
 a:visited {
-	color: inherit;
+	text-decoration: none;
+	color: #5d6a9e;
 }
 
 a:hover {
-	color: red;
+	color: #353c67;
 }
