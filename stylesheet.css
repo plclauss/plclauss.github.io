@@ -26,8 +26,10 @@ body {
 }
 
 .biography {
+	width: 45%;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
 
 .biography span {
@@ -35,6 +37,7 @@ body {
 }
 
 .bio-text {
+	width: 80%;
 	font-size: 1rem;
 	line-height: 1.25;
 }
@@ -43,7 +46,7 @@ body {
 	background-color: none;
 	border-radius: 35% 35% 0% 0%;
 	border: 3px solid;
-	width: 80%;
+	width: 45%;
 	height: auto;
 	object-fit: contain;
 	max-width: 100%;
