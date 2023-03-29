@@ -1,8 +1,5 @@
 *, *::before, *::after {
 	box-sizing: border-box;
-}
-
-* {
 	margin: 0;
 }
 
@@ -12,7 +9,9 @@ html, body {
 }
 
 body {
-	display: grid;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .flex-container {
