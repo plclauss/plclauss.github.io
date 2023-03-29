@@ -29,6 +29,7 @@ body {
 }
 
 .biography {
+	flex-direction: column;
 	justify-content: center;
 }
 
