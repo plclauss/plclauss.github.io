@@ -9,8 +9,8 @@ html, body {
 }
 
 body {
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	place-items: center;
 }
 
 .flex {
@@ -27,6 +27,11 @@ body {
 .summary * {
 	width: 50%;
 }
+
+.biography {
+	justify-content: center;
+}
+
 
 a {
 	text-decoration: none;
