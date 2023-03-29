@@ -11,6 +11,11 @@ html, body {
 	height: 100%;
 }
 
+body {
+	display: grid;
+	place-items: center;
+}
+
 .flex-container {
 	width: 80%;
 	height: 80%;
