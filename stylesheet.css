@@ -17,3 +17,9 @@ html, body {
 	display: flex;
 	justify-content: space-between;
 }
+
+a {
+}
+
+a:hover {
+}
