@@ -13,15 +13,26 @@ body {
 	place-items: center;
 }
 
-.flex-container {
+.flex {
+	display: flex;
+}
+
+.summary {
 	width: 80%;
 	height: 80%;
-	display: flex;
 	justify-content: space-between;
+}
+
+.summary * {
+	width: 50%;
 }
 
 a {
 	text-decoration: none;
+}
+
+a:visited {
+	color: inherit;
 }
 
 a:hover {
