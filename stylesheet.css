@@ -9,6 +9,7 @@ html, body {
 }
 
 body {
+	background-color: #aabaf7;
 	display: grid;
 	place-items: center;
 }
@@ -54,6 +55,10 @@ body {
 
 a {
 	text-decoration: none;
+	background-color: #8a9eeb;
+	padding: 2rem;
+	border-radius: 100vw;
+	color: #ccdafb;
 }
 
 a:visited {
