@@ -22,10 +22,7 @@ body {
 	height: 80%;
 	flex-direction: row;
 	justify-content: space-between;
-}
-
-.summary * {
-	width: 50%;
+	align-items: center;
 }
 
 .biography {
@@ -43,7 +40,7 @@ body {
 }
 
 #self-portrait {
-	background: none;
+	background-color: none;
 	border-radius: 35% 35% 0% 0%;
 	border: 3px solid;
 	width: 80%;
