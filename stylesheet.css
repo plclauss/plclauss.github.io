@@ -9,8 +9,8 @@ html, body {
 }
 
 body {
-	display: grid;
-	place-items: center;
+	display: flex;
+	flex-direction: column;
 }
 
 .flex {
@@ -20,6 +20,7 @@ body {
 .summary {
 	width: 80%;
 	height: 80%;
+	flex-direction: row;
 	justify-content: space-between;
 }
 
